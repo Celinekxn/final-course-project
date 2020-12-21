@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Customize</title>
+<style>
+	body{
+	background-image: url('../../Downloads/Customize.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: gainsboro
+	}
+	.back{
+	background-color: skyblue;
+			font-family: agency fb;
+			font-size: 35px;
+			text-align: center;
+			height: 80px;
+			width: 181px;
+			line-height: 81px;
+			position: relative;left:125px;top: 416px	
+	}
+	.name{
+	background-color: #DDDDDD;
+		position: relative;left:680px;top:290px;
+		width:630px;
+        padding: 05px 10px;
+        border: .5px solid black;
+        font-family: Tahoma, Arial, sans-serif;
+        font-size: 13px;
+      }
+	.email{
+	width:600px;
+	background-color: white;
+        margin: 300px 700px 0px 699px;
+        padding: 20px 15px;
+        font-family: Tahoma, Arial, sans-serif;
+        font-size: 13px;
+	}
+	.number{
+		width:600px;
+	background-color: white;
+        margin: 300px 700px 0px 699px;
+        padding: 20px 15px;
+        font-family: Tahoma, Arial, sans-serif;
+        font-size: 13px;
+	}
+	.adress{
+	width:600px;
+	background-color: #DDDDDD;
+        margin: 300px 700px 0px 699px;
+        padding: 20px 15px;
+        border: .5px solid black;
+        font-family: Tahoma, Arial, sans-serif;
+        font-size: 13px;
+	}
+	.discription{
+		background-color: #DDDDDD;
+        margin: 300px 700px 0px 699px;
+        padding: 20px 15px;
+        border: .5px solid black;
+        font-family: Tahoma, Arial, sans-serif;
+        font-size: 13px;
+	}
+	.caption{
+		font-size: 20px	
+	}
+      .clearfloat {
+        clear: both;
+      }
+	</style>
+	
+</head>
+
+<body>
+		
+	<form class="name" action="index.html" method="post">
+      <fieldset>
+        <legend class="caption">Shoe form</legend>
+        <div class="label">Full Name:</div>
+        <div class="data"><input type="text" size="20" name="fullname" />
+			
+        <form class="email" action="index.html" method="post">
+        <div class="label">email:</div>
+        <div class="data"><input type="text" size="20" name="email" />
+			
+				
+        <form class="number" action="index.html" method="post">
+        <div class="label">Phone Numbere:</div>
+        <div class="data"><input type="text" size="20" name="phonenumber" />
+			
+			
+			<form class="Adress" action="index.html" method="post">
+        <div class="label">Address:</div>
+        <div class="data"><input type="text" size="20" name="Address" />
+			
+			<form class="Discription" action="index.html" method="post">
+        <div class="label">Description Of Shoe:</div>
+        <div class="data"><input type="text" size="20" name="Discription" />
+			</div>
+        <div class="clearfloat"></div>
+        <div class="button">
+         
+        </textarea> <br />
+  <input type="submit" value="Click Here to Submit" />
+        </div>
+				</div>
+</body>
+</html>
+
